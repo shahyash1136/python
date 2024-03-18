@@ -1,0 +1,6 @@
+n = int(input())
+arr = map(int, input().split())
+runner_up = sorted(set(arr))
+# sorted_value = list(runner_up)
+# print(list(runner_up)[-2])
+print(runner_up[len(runner_up)-2])
